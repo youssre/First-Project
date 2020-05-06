@@ -1,0 +1,142 @@
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.nav{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+    
+}
+.nav h2{
+    float: left;
+    font-family: "Viner Hand ITC";
+    font-size: 200%;
+    padding: 0;
+    font-weight: bold;
+    color: #FFF;
+    
+}
+.nav ul{
+    list-style: none;
+    float: right;
+    padding-left: 0;
+    overflow: hidden;
+    
+}
+.nav ul li{
+    display: inline;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+
+}
+.nav ul li a{text-decoration: none;color: #FFF}
+.nav ul li.active a,
+.nav ul li a:hover{color: #30B576;font-weight: bold;}
+
+.more{ background-color: #DDD;overflow: hidden}
+.more .text {
+    margin-top: 50px;
+    width: 45%;
+    float: left;
+   
+    
+}
+.more .text h2{
+    margin: 0;
+}
+
+
+.more .image img{
+    margin: 50px 0 70px 0;
+    float: right;
+}
+/*==================================*/
+/* Start Heading*/
+.heading{
+    margin: 50px 0 50px 0;
+}
+.name{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 70px
+}
+.name textarea{
+    width: 350;
+    height: 300px;
+    background-color: #252F31; 
+
+}
+
+/* End Heading*/
+/*Start About Me*/
+.about-me{
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+.about-me h2{color: #FFF;margin-bottom: 20px;}
+.about-me .class1{
+    float: left;
+
+    overflow: hidden;
+
+}
+.about-me .class1 .model img{float: left;overflow: hidden;width: 70px;margin-right: 10px; color: #FFF;}
+.about-me .class1 .model h3{margin-bottom: 0;color: #FFF;float: left;overflow: hidden}
+.about-me .class1 .model .latest{ color: #FFF;float: left;margin-top: 0;}
+.about-me .class1 .model p{color: #FFF}
+.about-me .class1 div {float: left;}
+.about-me .class1 .para{color: #FFF;margin:30px 40px 20px 20px;}
+.about-me .class1 div img{ width: 40px;margin-right: 20px}
+
+/*End About Me*/
+/*Start Footer*/
+.footer{padding:40px;text-align: center;}
+/*End Footer*/
+/* start my framework*/
+
+ p{
+    color: #777;
+    line-height: 1.6;
+}
+button{
+    background-color: darkorange;
+    padding: 10px 30px;
+    color: #FFF;
+    border-radius: 5px ;
+}
+h2{
+    color: #555;
+}
+h3{color: #666}
+.clearfix{clear: both}
+.fl-right{float: right;direction: ltr;width: 20%;margin-left: 90px}
+.center{width: 37%;}
+.left{width: 35%;}
+/* End my framework*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
